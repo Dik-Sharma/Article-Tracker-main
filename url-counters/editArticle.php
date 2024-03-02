@@ -93,10 +93,7 @@ include 'db-connect.php';
         $url = "";
         $type = "";
 
-        // echo $title;
-        // echo "\n".$emp_id;
-        // echo("SELECT `article_date` FROM `articles` WHERE `article_title`='$title' AND `emp_id`=$emp_id;");
-
+      
         $query = "SELECT * FROM `articles` WHERE `article_title`='$title' AND `emp_id`=$emp_id;";
         echo $query;
         $res = mysqli_query($conn, $query) or die(mysqli_error($conn));

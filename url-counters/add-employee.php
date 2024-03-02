@@ -117,13 +117,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </span>
 
         <div>
-            <!--div>
-                <a href="dashboard.php">DASHBOARD</a>
-            </div-->
-            <!--h4 style="margin: 20px 20px; margin-bottom: 0;"><a href="dashboard.php">Go back to Dashboard</a></h4-->
-
-
-
+      
 
             <div><h1 style="margin:10px auto; margin-top: 100px;display: block; width: fit-content;">Add New Employee<h1></div>
             <div>
@@ -144,9 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div style="display: inline-block; width: 100px;">Password</div>
                         <input type="text" name="password" style="width: 300px; height: 10px; padding: 15px;">
                     </div>
-                    <!--button>Add</button-->
-                    <!--button type="submit"style="margin: 0 auto; display: block; padding: 10px; padding-left: 20px; padding-right: 20px;">Add Employee</button-->
-                    
+                
                         <button class="addemployeebutton" type="submit">Add Employee</button>
                     
                 </form>

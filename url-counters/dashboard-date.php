@@ -191,9 +191,7 @@ padding: 10px; border: 1px solid #ccc; border-radius: 16px;">
                     <th style="width: 100px">Total Submission</th>
                     <th style="width: 50px"></th>
                 </tr>
-                <!--tr>
-                    <td>qqqqqqqqqqqqq qqqqqqqqqqqqqqq qqqqssssssssss ssssssqqqqqqqqqq</td>
-                </tr-->    
+              
             
             <?php
             // echo "EMPLOYEE ID - NO OF ARTICLES<br>";
@@ -367,11 +365,7 @@ echo($count);
                     
                 </div>
                 
-                <!--div>
-                    <input type="date" name="date" style="width: 222px;padding: 10px;border-left-width: 1px;border-right-width: 1px;border-bottom-width: 1px;margin-top: 1px;">
-                    <input type="text" name="title" style="width: 222px;padding: 10px;border-left-width: 1px;border-right-width: 1px;border-bottom-width: 1px;margin-top: 1px;">
-                    <input type="text" name="url" style="width: 222px;padding: 10px;border-left-width: 1px;border-right-width: 1px;border-bottom-width: 1px;margin-top: 1px;">
-                </div-->
+               
 
                 
             </form>

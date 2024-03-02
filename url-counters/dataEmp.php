@@ -7,41 +7,7 @@ if (!isset($_SESSION['username']) || !isset($_SESSION['usertype'])) {
 }
 
 include 'db-connect.php';
-//dataAll.php
 
-// echo "\n".$_GET['emp_id'];
-// echo "\n".$_GET['code'];
-// echo "\n".$_GET['month'];
-// echo "\n".$_GET['year'];
-// echo "\n".$_GET['dateFrom'];
-// echo "\n".$_GET['dateTo'];
-
-
-// if( $_GET["code"] == "today"){
-//     $sql = "
-//     SELECT a.article_date, COUNT(a.article_date) AS Total
-//     FROM articles a
-//     WHERE a.emp_id= '$_GET[emp_id]' AND a.article_date = CURDATE()
-//     GROUP BY a.article_date
-//     ORDER BY a.article_date
-//     ";
-
-//     $result = mysqli_query($conn,$sql);
-
-//     if ($result)
-//     {
-//         $count = 0;
-//         foreach($result as $row)
-// 		{
-// 			echo $row['article_date']." ".$row['Total']."\n";
-//             $count++;
-// 		}
-//         echo $count;
-//     }
-
-
-
-// }
 
 
 if(isset($_POST["action"]))

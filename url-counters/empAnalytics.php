@@ -235,8 +235,6 @@ if ($_SESSION['usertype'] == 1) { ?>
                     var select = "Please choose a filter";
                 
 
-                    //var output = document.getElementById("filterData").selectedIndex;
-                        //alert(document.getElementsByTagName("option")[output].value);
                         var option = document.getElementById("filterData").value;
                         //alert(option);
                         if(option == "today") // Better to use a Switch function. but this will work for now.

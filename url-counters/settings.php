@@ -65,20 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    // $usertype = 2; // 2 = Employee, 1 = Admin
-
-    // if ($password != "" && $username != "" && $usertype > 0 && $usertype < 3
-    //     && $name != "" && $emp_id != "") {
-    //     $password_hash = password_hash($password, PASSWORD_BCRYPT);
-    //     $query = "INSERT INTO `users` (`usertype`, `name`, `emp_id`, `username`, `password_hash`) 
-    //     VALUES ('$usertype', '$name', '$emp_id', '$username', '$password_hash')";
-    //     $result = mysqli_query($conn, $query);
-
-    //     echo "Employee Added Succesfully! Username: ".$username." Password : ".$password;
-    // }
-    // else {
-    //     echo "Couldn't signup!<br>Make sure that you have entered all the fields correctly.";
-    // }
+    
 
 }
 
@@ -148,9 +135,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <li style="float:right; /*padding-right: 20;*/ display: none;" id="logoutbutton">
             <a href="logout.php">Logout</a>
         </li>
-        <!--li style="float:right; display: none;" id="settingsbutton">
-            <a href="settings.php">Change Password</a>
-        </li-->
+        
     </ul>
 </div>
 
@@ -163,11 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             lb.style.display = "none";
         }
-        // if (sb.style.display == "none") {
-        //     sb.style.display = "block";
-        // } else {
-        //     sb.style.display = "none";
-        // }
+      
     }
 </script>
 

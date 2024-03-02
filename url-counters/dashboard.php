@@ -168,26 +168,7 @@ if ($_SESSION['usertype'] == 1) { ?>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="row">
-					<div class="card mt-4">
-						<div class="card-header">Doughnut Chart</div>
-						<div class="card-body">
-							<div class="chart-container pie-chart">
-								<canvas id="doughnut_chart"></canvas>
-							</div>
-						</div>
-					</div>
-				</div> -->
-				<!-- <div class="row">
-					<div class="card mt-4 mb-4">
-						<div class="card-header">Bar Chart</div>
-						<div class="card-body">
-							<div class="chart-container pie-chart">
-								<canvas id="bar_chart"></canvas>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				
 
 		</div>
         

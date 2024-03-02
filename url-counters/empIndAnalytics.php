@@ -49,17 +49,14 @@ $emp_id = $_GET['emp_id'] ?? false;
                 /*color: #064269;*/
             }
         </style>
-        <!--
-            Author : Jwngfu Brahma
-            For : G PLus
-        -->
+      
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     </head>
 <body>
-<!-- include nav.php -->
+
 <?php include 'nav.php'; ?>
 
 
@@ -112,16 +109,7 @@ if ($_SESSION['usertype'] == 2) { ?>
                             </div>
                         </div>
 				    </div>
-                    <!-- <div class="row justify-content-evenly">
-                        <div class="card mt-4">
-                            <div class="card-header">Doughnut Chart</div>
-                            <div class="card-body">
-                                <div class="chart-container pie-chart">
-                                    <canvas id="doughnut_chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                  
                 </div>
 
 				<div class="col-md-7">
@@ -280,8 +268,7 @@ if ($_SESSION['usertype'] == 2) { ?>
                     var select = "Please choose a filter";
                 
 
-                    //var output = document.getElementById("filterData").selectedIndex;
-                        //alert(document.getElementsByTagName("option")[output].value);
+                   
                         var option = document.getElementById("filterData").value;
                         //alert(option);
                         if(option == "today") // Better to use a Switch function. but this will work for now.
